@@ -31,7 +31,7 @@ __verison__ = "0.0.1"
 
 import logging
 
-from .webhook import *  # noqa: F401, F403
 from .exception import *  # noqa: F401, F403
+from .webhook import *  # noqa: F401, F403
 
 logging.getLogger(__name__).addHandler(logging.NullHandler())
