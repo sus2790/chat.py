@@ -6,7 +6,7 @@ setup(
     name="chat.py",
     version="0.0.1",
     author="sus2790",
-    author_email="",
+    author_email="amengpan6@gmail.com",
     description=DESCRIPTION,
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
