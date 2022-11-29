@@ -6,4 +6,4 @@ __all__ = "SendException"
 
 
 class SendException(Exception):
-    ...
+    pass
