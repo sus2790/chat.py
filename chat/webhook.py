@@ -38,3 +38,4 @@ class Webhook:
                 data = await resp.json()
                 if "error" in data:
                     raise SendException(data["error"]["message"])
+                return Message(data)
