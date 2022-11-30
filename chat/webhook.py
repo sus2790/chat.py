@@ -4,7 +4,9 @@ import aiohttp
 
 from .exception import SendException
 
-__all__ = ("Webhook",)
+__all__ = [
+    "Webhook",
+]
 
 
 class Webhook:
