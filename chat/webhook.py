@@ -3,6 +3,7 @@ from typing import Optional
 import aiohttp
 
 from .exception import SendException
+from .message import Message
 
 __all__ = [
     "Webhook",
