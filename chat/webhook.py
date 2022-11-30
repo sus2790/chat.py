@@ -3,6 +3,7 @@ from typing import Optional
 import aiohttp
 
 from .exception import SendException
+from .message import Message
 
 __all__ = [
     "Webhook",
@@ -38,3 +39,4 @@ class Webhook:
                 data = await resp.json()
                 if "error" in data:
                     raise SendException(data["error"]["message"])
+                return Message(data)
