@@ -31,7 +31,10 @@ __verison__ = "0.0.1"
 
 import logging
 
+from .author import *  # noqa
 from .exception import *  # noqa
+from .guild import *  # noqa
+from .message import *  # noqa
 from .webhook import *  # noqa
 
 logging.getLogger(__name__).addHandler(logging.NullHandler())
