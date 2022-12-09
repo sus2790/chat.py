@@ -2,7 +2,7 @@ from typing import Optional
 
 import aiohttp
 
-from .exception import SendException
+from .exception import WebhookException
 from .message import Message
 
 __all__ = [
@@ -38,5 +38,5 @@ class Webhook:
             async with session.post(url, json=json) as resp:
                 data = await resp.json()
                 if "error" in data:
-                    raise SendException(data["error"]["message"])
+                    raise WebhookException(data["error"]["message"])
                 return Message(data)
