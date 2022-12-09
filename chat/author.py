@@ -1,4 +1,6 @@
-from __future__ import annotations
+__all__ = [
+    "Author",
+]
 
 
 class Author(object):
