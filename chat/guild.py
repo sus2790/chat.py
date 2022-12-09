@@ -1,5 +1,6 @@
-from __future__ import annotations
-
+__all__ = [
+    "Guild",
+]
 
 class Guild(object):
     def __init__(self, data: str) -> None:
