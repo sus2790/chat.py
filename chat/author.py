@@ -1,5 +1,6 @@
-from __future__ import annotations
-
+__all__ = [
+    "Author",
+]
 
 class Author(object):
     def __init__(self, data: str) -> None:
