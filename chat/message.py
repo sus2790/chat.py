@@ -1,7 +1,9 @@
-from __future__ import annotations
-
 from chat.author import Author
 from chat.guild import Guild
+
+__all__ = [
+    "Message",
+]
 
 
 class Message(object):
