@@ -3,9 +3,9 @@ A module represent the exceptions.
 """
 
 __all__ = [
-    "SendException",
+    "WebhookException",
 ]
 
 
-class SendException(Exception):
+class WebhookException(Exception):
     pass
