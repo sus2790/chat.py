@@ -30,7 +30,6 @@ Chat.py 透過下列指令進行安裝
 
     async def foo():
         message = await webhook.send("傑哥不要啦！")
-        print(message.content)
 
 
     asyncio.run(foo())
