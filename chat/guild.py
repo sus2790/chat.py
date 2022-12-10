@@ -2,6 +2,7 @@ __all__ = [
     "Guild",
 ]
 
+
 class Guild(object):
     def __init__(self, data: str) -> None:
         self._data = data

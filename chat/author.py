@@ -2,6 +2,7 @@ __all__ = [
     "Author",
 ]
 
+
 class Author(object):
     def __init__(self, data: str) -> None:
         self._data = data

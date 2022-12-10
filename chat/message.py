@@ -5,6 +5,7 @@ __all__ = [
     "Message",
 ]
 
+
 class Message(object):
     def __init__(self, data: str) -> None:
         self._data = data
