@@ -3,7 +3,7 @@
 > (正在開發中，這是beta版本)
 **一個簡單、方便的Google Chat Webhook函式庫**
 
-## 🚀 安裝<br>
+## 🚀 安裝
 
 Chat.py 透過下列指令進行安裝
 
@@ -30,4 +30,4 @@ asyncio.run(foo())
 
 ```
 
-你可以在[這裡](examples)查看更多示範 ❤️
+你可以在[這裡](examples)查看更多範例 ❤️
