@@ -8,7 +8,7 @@ setup(
     author="sus2790",
     author_email="amengpan6@gmail.com",
     description=DESCRIPTION,
-    long_description=open("README.md", encoding="utf-8").read(),
+    long_description=open("README.rst", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
     url="https://github.com/sus2790/chat.py",
     license="MIT",
